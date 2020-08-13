@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.encuestaproy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".listado2"></activity>
+        <activity android:name=".listcar2" />
+        <activity android:name=".graficaiet2" />
+        <activity android:name=".graficaie2" />
+        <activity android:name=".graficaii2" />
+        <activity android:name=".graficaiti2" />
+        <activity android:name=".listado1" />
+        <activity android:name=".listutor" />
+        <activity android:name=".listcar" />
+        <activity android:name=".graficaiet" />
+        <activity android:name=".graficaii" />
+        <activity android:name=".graficaie" />
+        <activity android:name=".graficaiti" />
+        <activity android:name=".Principal" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
